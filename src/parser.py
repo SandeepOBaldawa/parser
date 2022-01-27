@@ -5,7 +5,7 @@
 
 from pyparsing import *
 
-DDOGQL_INPUT_FILE = "./input_ddogql.txt"
+DDOGQL_INPUT_FILE = "src/assets/input_ddogql.txt"
 
 def preProcess(str):
     return str.translate(str.maketrans({".": "_"}))

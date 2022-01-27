@@ -1,5 +1,5 @@
 import unittest
-from parser import parseTransformQuery
+from src.parser import parseTransformQuery
 DDOGQL_INPUT_FILE = "./input_ddogql_test.txt"
 DDOGQL_OUTPUT_FILE = "./output_promql_test.txt"
 
